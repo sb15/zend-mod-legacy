@@ -1,0 +1,16 @@
+{
+    "name": "sb15/zend-mod-legacy",
+    "description": "Zend Mod Legacy",
+    "type": "library",       
+    "require": {
+        "php": ">=5.2.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "src/"
+        }
+    },
+    "include-path": [
+        "src/"
+    ]    
+}
